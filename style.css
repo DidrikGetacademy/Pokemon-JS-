@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* svart bakgrunn */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* hvit tekst */
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+.container {
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1a1a1a;
+    display: inline-block;
+    width: 200px;
+    color: #fff;
+}
+
+img.CaracterView,
+.pokemonTrainers,
+.gåigreswsetView {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+
+.inventoryCharacter {
+    border: 1px solid #444;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 250px;
+    color: #fff;
+}
+
+button {
+    padding: 6px 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.BattleArena1,
+.BattleArena2 {
+    width: 120px;
+    height: auto;
+    margin: 10px;
+}
+
+.Level1,
+.Damage1,
+.Health1,
+.Level2,
+.Damage2,
+.Health2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 2px 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.healthBox {
+    background-color: #222;
+    border: 1px solid #00ccff;
+    border-radius: 5px;
+    padding: 4px;
+    display: inline-block;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.attackGresset,
+.attackGresset2,
+.firstinventoryPokemon,
+.pokemongresset,
+.healbutton1,
+.healbutton2,
+.healbutton3,
+.healbutton4 {
+    display: inline-block;
+    margin: 5px;
+    background-color: #ff9933;
+    color: #000;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.RedZone,
+.BattleZone {
+    background-color: #1a1a1a;
+    border: 2px dashed #cc0000;
+    padding: 10px;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.battlecontainertrainer1,
+.battlecontainertrainer2 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 10px;
+    color: #fff;
+}
+
+.trainerfighter1,
+.trainerfighter2,
+.fighterP1,
+.fighterp2 {
+    width: 100px;
+    height: auto;
+}
